@@ -125,7 +125,7 @@ form .input-box {
 .input-box input{
     background: transparent;
     border-style: none;
-    width: 100%;
+    width: 350px;
 }
 .input-box input:active , .input-box input:focus {
     background: transparent;

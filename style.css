@@ -8,7 +8,7 @@
 body{
     height: 100vh;
     background: url(images/bg5.jpg) no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
     color: wheat;
     animation: bgsize 5s linear infinite;
 }

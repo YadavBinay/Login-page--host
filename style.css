@@ -122,14 +122,24 @@ form .input-box {
     width: 80%;
 }
 
-input{
-    background: transparent;
-    border-style: none;
-    width: 350px;
+input[type="text"] {
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    background-color: transparent; /* Make background transparent */
+    color: black; /* Text color */
+    font-size: 16px; /* Font size */
+    padding: 5px; /* Padding */
+    transition: background-color 0.3s; /* Smooth transition */
 }
-input:active ,input:focus {
-    background: transparent;
-    border-style: none;
+
+/* Style when input field is focused */
+input[type="text"]:focus {
+    background-color: lightblue; /* Change background color when focused */
+}
+
+/* Style when input field has text typed into it */
+input[type="text"]:not(:placeholder-shown) {
+    background-color: lightgreen; /* Change background color when text is typed */
 }
 form a{
     text-decoration: none;

@@ -122,12 +122,12 @@ form .input-box {
     width: 80%;
 }
 
-.input-box input{
+input{
     background: transparent;
     border-style: none;
     width: 350px;
 }
-.input-box input:active , .input-box input:focus {
+input:active ,input:focus {
     background: transparent;
     border-style: none;
 }

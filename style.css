@@ -122,7 +122,7 @@ form .input-box {
     width: 80%;
 }
 
-input[type="text"] {
+input {
     border: none; /* Remove border */
     outline: none; /* Remove outline */
     background-color: transparent; /* Make background transparent */
@@ -133,12 +133,12 @@ input[type="text"] {
 }
 
 /* Style when input field is focused */
-input[type="text"]:focus {
+input:focus {
     background-color: lightblue; /* Change background color when focused */
 }
 
 /* Style when input field has text typed into it */
-input[type="text"]:not(:placeholder-shown) {
+input:not(:placeholder-shown) {
     background-color: lightgreen; /* Change background color when text is typed */
 }
 form a{

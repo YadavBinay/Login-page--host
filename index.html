@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GalacticGit-Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="flex-div">
+        <div class="logo">logo</div>
+        <ul class="flex-div">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <button>Login</button>
+        </ul>
+    </nav>
+    <div class="login-register-container flex-div">
+        <div class="inner-container">
+            <form action="submit" id="login">
+                <h2>Login</h2>
+                <div class="input-box">
+                    <label for="username">😊</label>
+                    <input type="text" name="username" placeholder="Username">
+                </div>
+                <div class="input-box">
+                    <label for="pass">🔐</label>
+                    <input type="password" name="pass" placeholder="password">
+                </div>
+                <div class="fogotpass flex-div"><a href="#">Forget password</a></div>
+                <button type="button">Login</button>
+                <div class="login-register flex-div">
+                    <p>Don't have an account</p>
+                    <a href="#" id="reglink">Register</a>
+                </div>
+            </form>
+            <form action="submit" id="register">
+                <h2>Register</h2>
+                <div class="input-box">
+                    <label for="username">😊</label>
+                    <input type="text" name="username">
+                </div>
+                <div class="input-box">
+                    <label for="mail">📧</label>
+                    <input type="text" name="mail">
+                </div>
+                <div class="input-box">
+                    <label for="pass">🔐</label>
+                    <input type="password" name="pass">
+                </div>
+                <div class="fogotpass flex-div"><a href="#">Forget password</a></div>
+                <button type="button">Register</button>
+                <div class="login-register flex-div">
+                    <p>Already have an account</p>
+                    <a href="#" id="loginlink">Login</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

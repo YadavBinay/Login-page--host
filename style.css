@@ -10,7 +10,7 @@ body{
     background: url(images/bg5.jpg) no-repeat;
     /* background-size: cover; */
     color: wheat;
-    animation: bgsize 10s linear infinite;
+    animation: bgsize 5s linear infinite;
 }
 
 @keyframes bgsize {

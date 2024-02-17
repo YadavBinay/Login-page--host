@@ -7,9 +7,9 @@ window.onload = function(){
     
     let index = 0;
     setInterval(() => {
-        document.body.style.backgroundSize = "200%";
         //background loop images
         document.body.style.backgroundImage = `url("images/bg${index+1}.jpg")`;
+        document.body.style.backgroundSize = "200%";
         if(index < 4){
             index += 1;
         }
@@ -18,7 +18,7 @@ window.onload = function(){
         }
         document.body.style.backgroundSize = "100%";
 
-    }, 10000);//time of interval 1000 = 1s 
+    }, 5000);//time of interval 1000 = 1s 
 };
 
 const loginlink = document.getElementById('loginlink');
